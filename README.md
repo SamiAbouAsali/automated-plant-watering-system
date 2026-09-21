@@ -4,6 +4,8 @@ This project is an automated plant watering system I built using Java and an Ard
 
 The goal was to create a system that could monitor the moisture level of soil and automatically water a plant when it became too dry. A moisture sensor collects readings from the soil, then the Java program uses those readings and decides when the water pump should turn on or off.
 
+![Automated Plant Watering System Setup](plant-watering-system.jpg)
+
 ## Here's How It Works
 
 The moisture sensor continuously sends readings from the soil to Arduino. Using Firmata4j, my program reads this data and compares it to a moisture threshold.
