@@ -10,18 +10,18 @@ if the soil is too dry, the program turns on the water pump. Once the soil has e
 I also stored the moisture readings in an ArrayList and used them to create a live graph so I could see how the readings changed over time.
 
 ## Technologies I've Used
--Java
--Firmata4j
--Princeton StdDraw
--Arduino IDE
+- Java
+- Firmata4j
+- Princeton StdDraw
+- Arduino IDE
 
 ## The Hardware
--Moisture sensor
--Arduino Grove Beginner Kit
--Water pump
--MOSFET board
--8V battery
--Micro USB to USB A connection
+- Moisture sensor
+- Arduino Grove Beginner Kit
+- Water pump
+- MOSFET board
+- 8V battery
+- Micro USB to USB A connection
 
 ## Testing
 
