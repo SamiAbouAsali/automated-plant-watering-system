@@ -1,6 +1,6 @@
 # Automated Plant Watering System
 
-This project is an automated plant watering system I built using Java and an Arduino Grove beginner Kit.
+This project is an automated plant watering system I built using Java and an Arduino Grove Beginner Kit.
 
 The goal was to create a system that could monitor the moisture level of soil and automatically water a plant when it became too dry. A moisture sensor collects readings from the soil, then the Java program uses those readings and decides when the water pump should turn on or off.
 
@@ -8,9 +8,9 @@ The goal was to create a system that could monitor the moisture level of soil an
 
 ## Here's How It Works
 
-The moisture sensor continuously sends readings from the soil to Arduino. Using Firmata4j, my program reads this data and compares it to a moisture threshold.
+The moisture sensor continuously sends readings from the soil to the Arduino. Using Firmata4j, my program reads this data and compares it to a moisture threshold.
 
-if the soil is too dry, the program turns on the water pump. Once the soil has enough moisture, the pump stays off.
+If the soil is too dry, the program turns on the water pump. Once the soil has enough moisture, the pump stays off.
 
 I also stored the moisture readings in an ArrayList and used them to create a live graph so I could see how the readings changed over time.
 
